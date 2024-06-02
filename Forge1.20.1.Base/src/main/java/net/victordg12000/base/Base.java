@@ -1,4 +1,4 @@
-package net.victordg12000.plus10blocks;
+package net.victordg12000.base;
 
 import com.mojang.logging.LogUtils;
 
@@ -16,15 +16,15 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(Plus10blocks.MOD_ID)
-public class Plus10blocks {
+@Mod(Base.MOD_ID)
+public class Base {
     // Define mod id in a common place for everything to reference
-    public static final String MOD_ID = "plus10blocks";
+    public static final String MOD_ID = "base";
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
     // Create a Deferred Register to hold Blocks which will all be registered under the "examplemod" namespace
      
-    public Plus10blocks() {
+    public Base() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         modEventBus.addListener(this::commonSetup);
