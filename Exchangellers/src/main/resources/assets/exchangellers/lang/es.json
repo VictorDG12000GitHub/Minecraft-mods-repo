@@ -1,0 +1,13 @@
+{
+  "item.exchangellers.exchangaller": "Exchangaller",
+  "item.exchangellers.evergreen": "Evergreen",
+  "item.exchangellers.exchangaller_substance": "Exchangaller substance",
+  "item.exchangellers.raw_exchangaller": "Raw exchangaller",
+
+  "block.exchangellers.evergreen_block": "Block of Evergreen",
+  "block.exchangellers.evergreen_light": "Evergreen lighthouse",
+  "block.exchangellers.exchangaller_ore": "Exchangaller ore",
+
+
+  "creativetab.exchangellers_tab": "Exchangellers"
+}

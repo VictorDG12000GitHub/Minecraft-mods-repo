@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 450,
+  "experience": 4.5,
+  "group": "exchangaller",
+  "ingredient": {
+    "item": "exchangellers:raw_exchangaller"
+  },
+  "result": "exchangellers:exchangaller_substance"
+}

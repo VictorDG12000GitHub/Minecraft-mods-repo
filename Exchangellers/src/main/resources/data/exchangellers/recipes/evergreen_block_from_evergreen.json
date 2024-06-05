@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+      {
+        "item": "exchangellers:evergreen"
+      }
+  ],
+  "result": {
+    "item": "exchangellers:evergreen_block",
+    "count": 1
+  }
+}
