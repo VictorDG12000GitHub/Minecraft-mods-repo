@@ -10,5 +10,5 @@ public class ModFoods {
             .effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 2000, 0), 0.2f).build();
     public static final FoodProperties example = new FoodProperties.Builder().nutrition(-14)
             .saturationMod(4.0f).effect(() -> new MobEffectInstance(MobEffects.LUCK, 20000, 3), 0.8f)
-            .effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 2000, 0), 0.2f).build();
+            .effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 2000, 0), 0.2f).alwaysEat().build();
 }

@@ -28,7 +28,7 @@ public class ModItems {
     public static final RegistryObject<Item> STRAND_OF_EVERGREEN = ITEMS.register("strand_of_evergreen",
             () -> new Item(new Item.Properties().food(ModFoods.STRAND_OF_EVERGREEN)));
     public static final RegistryObject<Item> COMPACTED_COAL = ITEMS.register("compacted_coal",
-            () -> new FuelItem(new Item.Properties(), 400));
+            () -> new FuelItem(new Item.Properties(), 4000));
 
 
 
