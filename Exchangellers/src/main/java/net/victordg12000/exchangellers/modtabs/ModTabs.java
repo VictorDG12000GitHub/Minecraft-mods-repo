@@ -11,6 +11,8 @@ import net.victordg12000.exchangellers.Exchangellers;
 import net.victordg12000.exchangellers.block.ModBlocks;
 import net.victordg12000.exchangellers.item.ModItems;
 
+import java.util.zip.GZIPOutputStream;
+
 public class ModTabs {
 
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS=
@@ -28,7 +30,8 @@ public class ModTabs {
                     pOutput.accept(ModItems.EXCHANGALLER.get());
                     pOutput.accept(ModItems.COMPACTIFIER.get());
                     pOutput.accept(ModItems.METAL_DETECTOR.get());
-
+                    pOutput.accept(ModItems.STRAND_OF_EVERGREEN.get());
+                    pOutput.accept(ModItems.COMPACTED_COAL.get());
                     }).build());
 
 
