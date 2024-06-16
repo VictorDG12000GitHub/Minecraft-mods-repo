@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "exchangellers:block/sound_block"
+    }
+  }
+}

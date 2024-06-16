@@ -26,6 +26,8 @@ public class ModTabs {
                     pOutput.accept(ModItems.RAW_EXCHANGALLER.get());
                     pOutput.accept(ModItems.EXCHANGALLER_SUBSTANCE.get());
                     pOutput.accept(ModItems.EXCHANGALLER.get());
+                    pOutput.accept(ModItems.COMPACTIFIER.get());
+                    pOutput.accept(ModItems.METAL_DETECTOR.get());
 
                     }).build());
 
