@@ -17,6 +17,8 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockState;
+import net.victordg12000.exchangellers.modtabs.ModTabs;
+import net.victordg12000.exchangellers.util.ModTags;
 
 import org.jetbrains.annotations.Nullable;
 
@@ -60,6 +62,6 @@ public class MetalDetectorItem extends Item {
         super.appendHoverText(pStack, pLevel, pTooltipComponents, pIsAdvanced);
     }
     private boolean isValuableBlock(BlockState state){
-        return state.is(Blocks.IRON_ORE) || state.is(Blocks.DIAMOND_ORE);
+        return state.is(ModTags.Blocks.METAL_DETECTOR_VALUABLES);
     }
 }
