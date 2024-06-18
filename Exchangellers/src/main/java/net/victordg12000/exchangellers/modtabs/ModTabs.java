@@ -11,8 +11,6 @@ import net.victordg12000.exchangellers.Exchangellers;
 import net.victordg12000.exchangellers.block.ModBlocks;
 import net.victordg12000.exchangellers.item.ModItems;
 
-import java.util.zip.GZIPOutputStream;
-
 public class ModTabs {
 
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS=
@@ -33,6 +31,18 @@ public class ModTabs {
                     pOutput.accept(ModItems.STRAND_OF_EVERGREEN.get());
                     pOutput.accept(ModItems.COMPACTED_COAL.get());
                     pOutput.accept(ModBlocks.ARMORIAN_ORE.get());
+                    pOutput.accept(ModBlocks.EXCHANGALLER_BLOCK.get());
+                    pOutput.accept(ModBlocks.EXCHANGALLER_STAIRS.get());
+                    pOutput.accept(ModBlocks.COANT_STAIRS.get());
+                    pOutput.accept(ModBlocks.COANT_SLAB.get());
+                    pOutput.accept(ModBlocks.COANT_BUTTON.get());
+                    pOutput.accept(ModBlocks.COANT_PRESSURE_PLATE.get());
+                    pOutput.accept(ModBlocks.COANT_FENCE.get());
+                    pOutput.accept(ModBlocks.COANT_FENCE_GATE.get());
+                    pOutput.accept(ModBlocks.COANT_WALL.get());
+                    pOutput.accept(ModBlocks.COANT_DOOR.get());
+                    pOutput.accept(ModBlocks.COANT_TRAPDOOR.get());
+
                     }).build());
 
 

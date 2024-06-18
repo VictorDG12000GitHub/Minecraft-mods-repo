@@ -1,0 +1,10 @@
+// 1.20.1	2024-06-19T01:06:43.6489107	Tags for minecraft:block mod id exchangellers
+30f37bb1e5b2a44989f31784b60f6ecddfc3bfc8 data/exchangellers/tags/blocks/metal_detector_valuables.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/forge/tags/blocks/needs_netherite_tool.json
+2633780264f982e03803dbe5d8e530829d8aa903 data/minecraft/tags/blocks/fences.json
+0aa6e748bbafeaa6aeaf23db58042a0590fa5a01 data/minecraft/tags/blocks/fence_gates.json
+321039994b3793772db784f5a43a8354bd6e22fe data/minecraft/tags/blocks/mineable/pickaxe.json
+33a5c9cdfeccd4e9a8cb95727939341430fffc6a data/minecraft/tags/blocks/needs_diamond_tool.json
+631ddfb00c14d7297ad921b4621db89fc455dcf2 data/minecraft/tags/blocks/needs_iron_tool.json
+0bd7f3f7f779673eb922d8edb538e2c1dfd1f576 data/minecraft/tags/blocks/needs_stone_tool.json
+361e5b1c7316582f92d4500356352aa7634e6b3c data/minecraft/tags/blocks/walls.json

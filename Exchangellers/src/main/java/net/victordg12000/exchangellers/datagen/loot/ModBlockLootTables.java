@@ -26,17 +26,34 @@ public class ModBlockLootTables  extends BlockLootSubProvider {
     protected void generate(){
         this.dropSelf(ModBlocks.EVERGREEN_BLOCK.get());
         this.dropSelf(ModBlocks.EVERGREEN_LIGHT.get());
-        this.dropSelf(ModBlocks.EXCHANGALLER_ORE.get());
+        this.dropSelf(ModBlocks.EXCHANGALLER_BLOCK.get());
+        this.dropSelf(ModBlocks.COANT_BLOCK.get());
+        this.dropSelf(ModBlocks.COANT_STAIRS.get());
 
+        this.add(ModBlocks.EXCHANGALLER_ORE.get(),
+                block -> createCopperLikeOreDrops(ModBlocks.EXCHANGALLER_ORE.get(), ModItems.RAW_EXCHANGALLER.get()));
         this.add(ModBlocks.ARMORIAN_ORE.get(),
             block -> createCopperLikeOreDrops(ModBlocks.ARMORIAN_ORE.get(), ModItems.METAL_DETECTOR.get()));
+        this.dropSelf(ModBlocks.EXCHANGALLER_STAIRS.get());
+        this.dropSelf(ModBlocks.COANT_STAIRS.get());
+        this.dropSelf(ModBlocks.COANT_BUTTON.get());
+        this.dropSelf(ModBlocks.COANT_PRESSURE_PLATE.get());
+        this.dropSelf(ModBlocks.COANT_TRAPDOOR.get());
+        this.dropSelf(ModBlocks.COANT_FENCE.get());
+        this.dropSelf(ModBlocks.COANT_FENCE_GATE.get());
+        this.dropSelf(ModBlocks.COANT_WALL.get());
+
+        this.add(ModBlocks.COANT_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.COANT_SLAB.get()));
+        this.add(ModBlocks.COANT_DOOR.get(),
+                block -> createDoorTable(ModBlocks.COANT_DOOR.get()));
     }
 
     protected LootTable.Builder createCopperLikeOreDrops(Block pBlock, Item item) {
         return createSilkTouchDispatchTable(pBlock,
                 this.applyExplosionDecay(pBlock,
                         LootItem.lootTableItem(item)
-                                .apply(SetItemCountFunction.setCount(UniformGenerator.between(2.0F, 5.0F)))
+                                .apply(SetItemCountFunction.setCount(UniformGenerator.between(1.0F, 1.0F)))
                                 .apply(ApplyBonusCount.addOreBonusCount(Enchantments.BLOCK_FORTUNE))));
     }
     @Override protected Iterable<Block> getKnownBlocks(){

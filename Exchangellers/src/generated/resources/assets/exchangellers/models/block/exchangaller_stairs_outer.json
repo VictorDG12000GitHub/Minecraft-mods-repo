@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "exchangellers:block/exchangaller_block",
+    "side": "exchangellers:block/exchangaller_block",
+    "top": "exchangellers:block/exchangaller_block"
+  }
+}

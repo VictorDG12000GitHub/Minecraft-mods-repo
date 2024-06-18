@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "exchangellers:evergreen"
+    },
+    "B": {
+      "item": "minecraft:beacon"
+    }
+  },
+  "pattern": [
+    "###",
+    "#B#",
+    "###"
+  ],
+  "result": {
+    "item": "exchangellers:evergreen_light"
+  },
+  "show_notification": true
+}

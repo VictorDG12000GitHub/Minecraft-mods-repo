@@ -25,7 +25,7 @@ import java.util.function.Consumer;
 
 public class ModRecipeProvider extends RecipeProvider implements IConditionBuilder {
 
-    private static final List<ItemLike> EXCHANGELLER_SMELTABLES = List.of(ModItems.EXCHANGALLER_SUBSTANCE.get(),
+    private static final List<ItemLike> EXCHANGELLER_SMELTABLES = List.of(
             ModItems.RAW_EXCHANGALLER.get(),
             ModBlocks.EXCHANGALLER_ORE.get());
 
@@ -35,16 +35,16 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
     @Override
     protected void buildRecipes(Consumer<FinishedRecipe> pWriter) {
-        oreSmelting(pWriter, EXCHANGELLER_SMELTABLES, RecipeCategory.MISC, ModItems.EXCHANGALLER.get(), 4.5f, 450, "exchangaller");
-        oreBlasting(pWriter, EXCHANGELLER_SMELTABLES, RecipeCategory.MISC, ModItems.EXCHANGALLER.get(), 4.5f, 250, "exchangaller");
+        oreSmelting(pWriter, EXCHANGELLER_SMELTABLES, RecipeCategory.MISC, ModItems.EXCHANGALLER_SUBSTANCE.get(), 4.5f, 450, "exchangaller");
+        oreBlasting(pWriter, EXCHANGELLER_SMELTABLES, RecipeCategory.MISC, ModItems.EXCHANGALLER_SUBSTANCE.get(), 4.5f, 250, "exchangaller");
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.EVERGREEN_LIGHT.get())
                 .pattern("###")
                 .pattern("#B#")
                 .pattern("###")
                 .define('B', Blocks.BEACON)
-                .define('#', ModItems.EXCHANGALLER.get())
-                .unlockedBy(getHasName(ModItems.EXCHANGALLER.get()), has(Blocks.BEACON))
+                .define('#', ModItems.EVERGREEN.get())
+                .unlockedBy(getHasName(ModItems.EVERGREEN.get()), has(Blocks.BEACON))
                 .save(pWriter);
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.EVERGREEN.get(),1)

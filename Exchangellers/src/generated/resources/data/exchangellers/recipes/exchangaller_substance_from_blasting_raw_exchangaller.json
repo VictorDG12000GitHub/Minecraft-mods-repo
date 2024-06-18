@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 250,
+  "experience": 4.5,
+  "group": "exchangaller",
+  "ingredient": {
+    "item": "exchangellers:raw_exchangaller"
+  },
+  "result": "exchangellers:exchangaller_substance"
+}

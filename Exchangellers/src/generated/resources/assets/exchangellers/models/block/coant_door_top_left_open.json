@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/door_top_left_open",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "bottom": "exchangellers:block/coant_door_bottom",
+    "top": "exchangellers:block/coant_door_top"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "exchangellers:block/coant_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/coal_block"
+    },
+    "type=top": {
+      "model": "exchangellers:block/coant_slab_top"
+    }
+  }
+}
