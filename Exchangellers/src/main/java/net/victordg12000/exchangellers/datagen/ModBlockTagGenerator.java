@@ -30,14 +30,16 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
 
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.EXCHANGALLER_ORE.get())
-                .add(ModBlocks.EVERGREEN_LIGHT.get());
+                .add(ModBlocks.EVERGREEN_LIGHT.get())
+                .add(ModBlocks.ARMORIAN_ORE.get());
 
         this.tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.EXCHANGALLER_ORE.get());
 
         this.tag(BlockTags.NEEDS_DIAMOND_TOOL);
 
-        this.tag(BlockTags.NEEDS_STONE_TOOL);
+        this.tag(BlockTags.NEEDS_STONE_TOOL)
+                .add(ModBlocks.ARMORIAN_ORE.get());
 
         this.tag(Tags.Blocks.NEEDS_NETHERITE_TOOL);
     }

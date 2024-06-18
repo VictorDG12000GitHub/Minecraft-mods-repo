@@ -32,6 +32,7 @@ public class ModTabs {
                     pOutput.accept(ModItems.METAL_DETECTOR.get());
                     pOutput.accept(ModItems.STRAND_OF_EVERGREEN.get());
                     pOutput.accept(ModItems.COMPACTED_COAL.get());
+                    pOutput.accept(ModBlocks.ARMORIAN_ORE.get());
                     }).build());
 
 

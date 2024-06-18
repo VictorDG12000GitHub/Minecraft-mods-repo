@@ -30,7 +30,9 @@ public class ModBlocks {
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.NETHER_GOLD_ORE)
                     .strength(5f).requiresCorrectToolForDrops(), UniformInt.of(15,20)));
 
-
+    public static final RegistryObject<Block> ARMORIAN_ORE = registerBlock("armorian_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.NETHER_GOLD_ORE)
+                    .strength(2f).requiresCorrectToolForDrops(), UniformInt.of(11,11)));
 
 
 
