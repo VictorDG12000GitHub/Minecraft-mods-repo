@@ -4,7 +4,7 @@
       "model": "exchangellers:block/coant_slab"
     },
     "type=double": {
-      "model": "minecraft:block/coal_block"
+      "model": "exchangellers:block/coant_block"
     },
     "type=top": {
       "model": "exchangellers:block/coant_slab_top"

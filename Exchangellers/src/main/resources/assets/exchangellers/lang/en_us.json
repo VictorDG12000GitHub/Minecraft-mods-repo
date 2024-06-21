@@ -7,22 +7,35 @@
   "item.exchangellers.metal_detector": "Metal detector",
   "item.exchangellers.strand_of_evergreen": "Strand of evergreen",
   "item.exchangellers.compacted_coal": "Compacted coal",
+  "item.exchangellers.coant": "Coant",
+
+  "item.exchangellers.evergreen_staff": "Evergreen Staff",
+  "item.exchangellers.coant_sword": "Coant Sword",
+  "item.exchangellers.coant_pickaxe": "Coant Pickaxe",
+  "item.exchangellers.coant_axe": "Coant Axe",
+  "item.exchangellers.coant_shovel": "Coant Shovel",
+  "item.exchangellers.coant_hoe": "Coant Hoe",
+
 
   "block.exchangellers.evergreen_block": "Block of Evergreen",
   "block.exchangellers.evergreen_light": "Evergreen lighthouse",
   "block.exchangellers.exchangaller_ore": "Exchangaller ore",
   "block.exchangellers.armorian_ore": "Armorian ore",
   "block.exchangellers.exchangaller_block": "Block of exchangaller",
+  "block.exchangellers.coant_block": "Block of coant",
 
-  "block.exchangallers.coant_stairs": "Coant Stairs",
-  "block.exchangallers.coant_slab": "Coant Slab",
-  "block.exchangallers.coant_button": "Coant Button",
-  "block.exchangallers.coant_pressure_plate": "Coant Pressure Plate",
-  "block.exchangallers.coant_fence": "Coant Fence",
-  "block.exchangallers.coant_fence_gate": "Coant Fence Gate",
-  "block.exchangallers.coant_wall": "Coant Wall",
-  "block.exchangallers.coant_door": "Coant Door",
-  "block.exchangallers.coant_trapdoor": "Coant Trapdoor",
+  "block.exchangellers.exchangaller_stairs": "Exchangaller Stairs",
+  "block.exchangellers.coant_stairs": "Coant Stairs",
+  "block.exchangellers.coant_slab": "Coant Slab",
+  "block.exchangellers.coant_button": "Coant Button",
+  "block.exchangellers.coant_pressure_plate": "Coant Pressure Plate",
+  "block.exchangellers.coant_fence": "Coant Fence",
+  "block.exchangellers.coant_fence_gate": "Coant Fence Gate",
+  "block.exchangellers.coant_wall": "Coant Wall",
+  "block.exchangellers.coant_door": "Coant Door",
+  "block.exchangellers.coant_trapdoor": "Coant Trapdoor",
+
+
 
   "creativetab.exchangellers_tab": "Exchangellers",
 

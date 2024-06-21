@@ -44,7 +44,8 @@ public class ModBlocks {
     public static final RegistryObject<Block> COANT_BLOCK = registerBlock("coant_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.GOLD_BLOCK).sound(SoundType.NETHER_GOLD_ORE)));
 
-
+    //public static final RegistryObject<Block>  EVERGREEN_TABLE = registerBlock("evergreen_table",
+    //        () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
 
     public static final RegistryObject<Block> COANT_STAIRS = registerBlock("coant_stairs",
             () -> new StairBlock(()-> Blocks.COAL_BLOCK.defaultBlockState(),

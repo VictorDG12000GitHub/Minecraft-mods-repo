@@ -19,29 +19,42 @@ public class ModTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.EXCHANGALLER.get()))
                 .title(Component.translatable("creativetab.exchangellers_tab"))
                     .displayItems((pParameters, pOutput) -> {
-                    pOutput.accept(ModBlocks.EVERGREEN_BLOCK.get());
-                    pOutput.accept(ModItems.EVERGREEN.get());
-                    pOutput.accept(ModBlocks.EVERGREEN_LIGHT.get());
-                    pOutput.accept(ModBlocks.EXCHANGALLER_ORE.get());
-                    pOutput.accept(ModItems.RAW_EXCHANGALLER.get());
-                    pOutput.accept(ModItems.EXCHANGALLER_SUBSTANCE.get());
-                    pOutput.accept(ModItems.EXCHANGALLER.get());
-                    pOutput.accept(ModItems.COMPACTIFIER.get());
-                    pOutput.accept(ModItems.METAL_DETECTOR.get());
-                    pOutput.accept(ModItems.STRAND_OF_EVERGREEN.get());
-                    pOutput.accept(ModItems.COMPACTED_COAL.get());
-                    pOutput.accept(ModBlocks.ARMORIAN_ORE.get());
-                    pOutput.accept(ModBlocks.EXCHANGALLER_BLOCK.get());
-                    pOutput.accept(ModBlocks.EXCHANGALLER_STAIRS.get());
-                    pOutput.accept(ModBlocks.COANT_STAIRS.get());
-                    pOutput.accept(ModBlocks.COANT_SLAB.get());
-                    pOutput.accept(ModBlocks.COANT_BUTTON.get());
-                    pOutput.accept(ModBlocks.COANT_PRESSURE_PLATE.get());
-                    pOutput.accept(ModBlocks.COANT_FENCE.get());
-                    pOutput.accept(ModBlocks.COANT_FENCE_GATE.get());
-                    pOutput.accept(ModBlocks.COANT_WALL.get());
-                    pOutput.accept(ModBlocks.COANT_DOOR.get());
-                    pOutput.accept(ModBlocks.COANT_TRAPDOOR.get());
+                        pOutput.accept(ModItems.EXCHANGALLER.get());
+                        pOutput.accept(ModItems.EVERGREEN.get());
+                        pOutput.accept(ModItems.STRAND_OF_EVERGREEN.get());
+                        pOutput.accept(ModItems.RAW_EXCHANGALLER.get());
+                        pOutput.accept(ModItems.EXCHANGALLER_SUBSTANCE.get());
+                        pOutput.accept(ModBlocks.EXCHANGALLER_STAIRS.get());
+                        pOutput.accept(ModBlocks.EXCHANGALLER_BLOCK.get());
+                        pOutput.accept(ModBlocks.EVERGREEN_BLOCK.get());
+                        pOutput.accept(ModBlocks.EVERGREEN_LIGHT.get());
+                        pOutput.accept(ModBlocks.EXCHANGALLER_ORE.get());
+                        pOutput.accept(ModBlocks.ARMORIAN_ORE.get());
+                        pOutput.accept(ModBlocks.COANT_BLOCK.get());
+                        pOutput.accept(ModBlocks.COANT_STAIRS.get());
+                        pOutput.accept(ModBlocks.COANT_SLAB.get());
+                        pOutput.accept(ModBlocks.COANT_BUTTON.get());
+                        pOutput.accept(ModBlocks.COANT_PRESSURE_PLATE.get());
+                        pOutput.accept(ModBlocks.COANT_FENCE.get());
+                        pOutput.accept(ModBlocks.COANT_FENCE_GATE.get());
+                        pOutput.accept(ModBlocks.COANT_WALL.get());
+                        pOutput.accept(ModBlocks.COANT_DOOR.get());
+                        pOutput.accept(ModBlocks.COANT_TRAPDOOR.get());
+                        pOutput.accept(ModItems.COANT.get());
+                        pOutput.accept(ModItems.COANT_SWORD.get());
+                        pOutput.accept(ModItems.COANT_PICKAXE.get());
+                        pOutput.accept(ModItems.COANT_AXE.get());
+                        pOutput.accept(ModItems.COANT_SHOVEL.get());
+                        pOutput.accept(ModItems.COANT_HOE.get());
+                        //pOutput.accept(ModBlocks.EVERGREEN_TABLE.get());
+                        pOutput.accept(ModItems.COMPACTIFIER.get());
+                        pOutput.accept(ModItems.METAL_DETECTOR.get());
+                        pOutput.accept(ModItems.COMPACTED_COAL.get());
+                        pOutput.accept(ModItems.EVERGREEN_STAFF.get());
+                        pOutput.accept(ModItems.COANT_HELMET.get());
+                        pOutput.accept(ModItems.COANT_CHESTPLATE.get());
+                        pOutput.accept(ModItems.COANT_LEGGINGS.get());
+                        pOutput.accept(ModItems.COANT_BOOTS.get());
 
                     }).build());
 

@@ -36,6 +36,12 @@ public class ModItemModelProvider extends ItemModelProvider{
         simpleItem(ModItems.RAW_EXCHANGALLER);
         simpleItem(ModItems.METAL_DETECTOR);
         simpleItem(ModItems.STRAND_OF_EVERGREEN);
+        simpleItem(ModItems.COANT);
+        simpleItem(ModItems.COANT_SWORD);
+        simpleItem(ModItems.COANT_PICKAXE);
+        simpleItem(ModItems.COANT_AXE);
+        simpleItem(ModItems.COANT_SHOVEL);
+        simpleItem(ModItems.COANT_HOE);
 
 
         simpleBlockItem(ModBlocks.COANT_DOOR);

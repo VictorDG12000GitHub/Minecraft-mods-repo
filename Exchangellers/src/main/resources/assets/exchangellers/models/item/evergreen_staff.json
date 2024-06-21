@@ -1,0 +1,18 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "forge:separate_transforms",
+  "base": {
+    "parent": "exchangellers:item/evergreen_staff_3d"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "exchangellers:item/evergreen_staff_2d"
+    },
+    "ground": {
+      "parent": "exchangellers:item/evergreen_staff_2d"
+    },
+    "fixed": {
+      "parent": "exchangellers:item/evergreen_staff_2d"
+    }
+  }
+}

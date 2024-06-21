@@ -11,6 +11,7 @@ import net.victordg12000.exchangellers.Exchangellers;
 public class ModTags {
     public static class Blocks {
         public static final TagKey<Block> METAL_DETECTOR_VALUABLES = tag("metal_detector_valuables");
+        public static final TagKey<Block> NEEDS_COANT_TOOL = tag("needs_coant_tool");
 
         private static TagKey<Block> tag(String name){
             return BlockTags.create(new ResourceLocation(Exchangellers.MOD_ID, name));
