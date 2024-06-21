@@ -42,6 +42,11 @@ public class ModItemModelProvider extends ItemModelProvider{
         simpleItem(ModItems.COANT_AXE);
         simpleItem(ModItems.COANT_SHOVEL);
         simpleItem(ModItems.COANT_HOE);
+        simpleItem(ModItems.COANT_HELMET);
+        simpleItem(ModItems.COANT_CHESTPLATE);
+        simpleItem(ModItems.COANT_LEGGINGS);
+        simpleItem(ModItems.COANT_BOOTS);
+
 
 
         simpleBlockItem(ModBlocks.COANT_DOOR);

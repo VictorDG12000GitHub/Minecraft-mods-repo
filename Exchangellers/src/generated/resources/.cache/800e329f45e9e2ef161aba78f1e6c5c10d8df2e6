@@ -1,11 +1,15 @@
-// 1.20.1	2024-06-19T20:13:13.3095925	Item Models: exchangellers
+// 1.20.1	2024-06-21T03:36:27.0703022	Item Models: exchangellers
 d09b9b5ae171af9a75bb6f52c6dc2409fa6df317 assets/exchangellers/models/item/coant.json
 3b095ef8cdb7f61320f1cbc026c7db6c2b1f8795 assets/exchangellers/models/item/coant_axe.json
+5ed3599fc89450da8d23f93463d4ecf22a85df3a assets/exchangellers/models/item/coant_boots.json
 9ce4885183a9624099fd57a4243c9bfd7790c910 assets/exchangellers/models/item/coant_button.json
+72ec8b8b92c71772289490d77f7227d0b3b81219 assets/exchangellers/models/item/coant_chestplate.json
 cab2f65cd36f92d53f3c4f760066afa1ba0020c5 assets/exchangellers/models/item/coant_door.json
 a95be1a46af23d847e2a4426cf6a627f6a950022 assets/exchangellers/models/item/coant_fence.json
 f11f096c2cf79f9f23cbfa9eb336b41a5b294781 assets/exchangellers/models/item/coant_fence_gate.json
+4a436bcfdb878a78a462d1bf7d49d156559b3111 assets/exchangellers/models/item/coant_helmet.json
 0d2a3a5bf190fc398318a848efe4079b23d3fa99 assets/exchangellers/models/item/coant_hoe.json
+4bcf0e36afa1325daaf5949ca494d61c6ce28112 assets/exchangellers/models/item/coant_leggings.json
 b47896be87f7d5578f141da89f67862b029c0432 assets/exchangellers/models/item/coant_pickaxe.json
 3566b7d9b8eef25d4beef85d470153960990426b assets/exchangellers/models/item/coant_pressure_plate.json
 f2e9c93827b45fe45476e45f1d7345d65d641d99 assets/exchangellers/models/item/coant_shovel.json
