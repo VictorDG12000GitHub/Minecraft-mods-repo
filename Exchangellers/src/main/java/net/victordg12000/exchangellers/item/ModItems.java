@@ -14,6 +14,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.victordg12000.exchangellers.item.custom.FuelItem;
 import net.victordg12000.exchangellers.item.custom.MetalDetectorItem;
+import net.victordg12000.exchangellers.item.custom.ModArmorItem;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -52,13 +53,13 @@ public class ModItems {
             () -> new HoeItem(ModToolTiers.COANT, 1, 7, new Item.Properties()));
 
     public static final RegistryObject<Item>  COANT_HELMET = ITEMS.register("coant_helmet",
-            () -> new ArmorItem(ModArmorMaterials.COANT,ArmorItem.Type.HELMET, new Item.Properties()));
+            () -> new ModArmorItem(ModArmorMaterials.COANT,ArmorItem.Type.HELMET, new Item.Properties()));
     public static final RegistryObject<Item>  COANT_CHESTPLATE = ITEMS.register("coant_chestplate",
-            () -> new ArmorItem(ModArmorMaterials.COANT,ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+            () -> new ModArmorItem(ModArmorMaterials.COANT,ArmorItem.Type.CHESTPLATE, new Item.Properties()));
     public static final RegistryObject<Item>  COANT_LEGGINGS = ITEMS.register("coant_leggings",
-            () -> new ArmorItem(ModArmorMaterials.COANT,ArmorItem.Type.LEGGINGS, new Item.Properties()));
+            () -> new ModArmorItem(ModArmorMaterials.COANT,ArmorItem.Type.LEGGINGS, new Item.Properties()));
     public static final RegistryObject<Item>  COANT_BOOTS = ITEMS.register("coant_boots",
-            () -> new ArmorItem(ModArmorMaterials.COANT,ArmorItem.Type.BOOTS, new Item.Properties()));
+            () -> new ModArmorItem(ModArmorMaterials.COANT,ArmorItem.Type.BOOTS, new Item.Properties()));
 
 
 

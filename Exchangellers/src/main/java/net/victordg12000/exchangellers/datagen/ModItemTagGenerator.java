@@ -3,9 +3,11 @@ package net.victordg12000.exchangellers.datagen;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
+import net.minecraft.tags.ItemTags;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.victordg12000.exchangellers.Exchangellers;
+import net.victordg12000.exchangellers.item.ModItems;
 
 import org.jetbrains.annotations.Nullable;
 
@@ -18,7 +20,11 @@ public class ModItemTagGenerator extends ItemTagsProvider {
     }
     @Override
     protected void addTags(HolderLookup.Provider pProvider) {
-
+        this.tag(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.COANT_HELMET.get())
+                .add(ModItems.COANT_CHESTPLATE.get())
+                .add(ModItems.COANT_LEGGINGS.get())
+                .add(ModItems.COANT_BOOTS.get());
     }
 
 }

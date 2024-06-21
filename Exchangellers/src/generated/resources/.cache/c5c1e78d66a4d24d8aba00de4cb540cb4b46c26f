@@ -1,0 +1,6 @@
+// 1.20.1	2024-06-21T20:14:04.3342102	Global Loot Modifiers : exchangellers
+8805a73e5c9b7ec38d7de6affed5b4c01f312dcd data/exchangellers/loot_modifiers/coant_from_evoker.json
+2d1de93d421e2c3e050db3b05499835257fb548f data/exchangellers/loot_modifiers/metal_detector_from_jungle_temples.json
+782277c60736de9ff6e7324c75aa40268a1961be data/exchangellers/loot_modifiers/metal_detector_from_suspicious_sand.json
+8b6198007ba13b6a13e241d9bd960213a93d2940 data/exchangellers/loot_modifiers/strand_of_evergreen_from_grass.json
+88e5a2ef8a018518ee2377724db1a702c93163b3 data/forge/loot_modifiers/global_loot_modifiers.json

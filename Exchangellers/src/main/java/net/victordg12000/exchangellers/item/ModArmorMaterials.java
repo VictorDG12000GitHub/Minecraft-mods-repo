@@ -11,7 +11,7 @@ import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
     COANT("coant", 25, new int[]{4,6,4,3}, 25, SoundEvents.ARMOR_EQUIP_CHAIN,
-            2f, 3f, () -> Ingredient.of(ModItems.COANT.get()));
+            2f, 0.5f, () -> Ingredient.of(ModItems.COANT.get()));
 
     private final String name;
     private final int durabilityMultiplier;
